@@ -8,9 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>To-Do List Application</h2>
-
-
+    <div class="container"></div>
+        <div class="todo-app">
+            <h2>To-Do List<img src="images/notes.png"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Enter your text here">
+                <button onclick="addTask()">ADD</button>
+            </div>
+             <ul id="list-container">
+                <li class="checked">Task 1</li>
+                <li>Task 2</li>
+             </ul>
+        </div>
 
     <script src="script.js"></script>
 </body>
